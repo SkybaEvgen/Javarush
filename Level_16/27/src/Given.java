@@ -47,15 +47,6 @@ public class Given {
         @Override
         public void run() {
             //Add your code here - добавь код тут
-
-            for (int i = 0; i < OnlineGame.steps.size(); i++) {
-                System.out.println(getName() + ":" + OnlineGame.steps.get(i));
-                try {
-                    sleep(1000/rating);
-                } catch (InterruptedException e) {
-                    e.printStackTrace();
-                }
-            }
         }
     }
 }
