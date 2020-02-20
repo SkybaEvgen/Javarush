@@ -18,7 +18,7 @@ public class Solution {
             //создаем адаптер к классу PrintStream
         PrintStream stream = new PrintStream(outputStream);
 
-            //создаем адаптер к классу PrintStream
+            //Устанавливаем его как текущий System.out
         System.setOut(stream);
 
             //Вызываем функцию, которая ничего не знает о наших манипуляциях
